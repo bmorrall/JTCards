@@ -20,7 +20,7 @@ Here is a simple sample of how you add two controllers to the card controller.'
     {
       // create an array of controllers
       NSArray *cards = @[[[FirstViewController alloc] init], [[SecondViewController alloc] init]];
-      // craete card contoller with array of controllers
+      // create card controller with array of controllers
       JTCardsViewController *controller = [[JTCardsViewController alloc] initWithCards:cards];
       
       self.window.rootViewController = controller;
